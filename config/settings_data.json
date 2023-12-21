@@ -7,16 +7,19 @@
           "collection-list-0": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-1": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           },
           "collection-list-2": {
             "type": "collection",
             "settings": {
+              "collection": ""
             }
           }
         },
@@ -26,17 +29,40 @@
           "collection-list-2"
         ],
         "settings": {
+          "title": "Collection list"
         }
       },
       "featured-collection": {
         "type": "featured-collection",
         "settings": {
+          "title": "Featured collection",
           "collection": "frontpage"
         }
       },
       "featured-product": {
         "type": "featured-product",
         "settings": {
+          "product": "",
+          "show_share_buttons": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "announcement_bar_enabled": false,
+          "announcement_bar_home_page_only": false,
+          "announcement_bar_text": "Announce something here",
+          "announcement_bar_link": "",
+          "logo": "shopify:\/\/shop_images\/IMAGE_2.png",
+          "logo_max_width": 250,
+          "menu": "main-menu"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "settings": {
+          "footer_linklist": "footer",
+          "show_payment_icons": false
         }
       }
     },
